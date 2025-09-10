@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>语音合成 Demo</title>
+  <style>
+    body { font-family: sans-serif; margin: 40px; }
+    h1 { font-size: 28px; margin-bottom: 20px; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border: 1px solid #ddd; padding: 10px; text-align: center; }
+    th { background-color: #f4f4f4; }
+    audio { width: 200px; }
+    .text { font-style: italic; font-size: 14px; color: #555; }
+  </style>
+</head>
+<body>
+  <h1>语音合成 Demo</h1>
+  <p>下表展示了 Ground-Truth、DailyTalk、Proposed Model 三种系统在不同对话下的生成效果。</p>
+
+  <table>
+    <tr>
+      <th>对话文本</th>
+      <th>Ground-Truth</th>
+      <th>DailyTalk</th>
+      <th>Proposed Model</th>
+    </tr>
+
+    <!-- 对话 1 -->
+    <tr>
+      <td class="text">Dialog 1: I am looking for a pan.</td>
+      <td><audio controls><source src="ground_truth/0_1_d23.wav" type="audio/wav"></audio></td>
+      <td><audio controls><source src="dailytalk/1_0_d23.wav" type="audio/wav"></audio></td>
+      <td><audio controls><source src="proposed/2_1_d23.wav" type="audio/wav"></audio></td>
+    </tr>
+
+    <!-- 对话 2 -->
+    <tr>
+      <td class="text">Dialog 2: No problem. What size would you like?</td>
+      <td><audio controls><source src="ground_truth/0_1_d23.wav" type="audio/wav"></audio></td>
+      <td><audio controls><source src="dailytalk/1_0_d23.wav" type="audio/wav"></audio></td>
+      <td><audio controls><source src="proposed/2_1_d23.wav" type="audio/wav"></audio></td>
+    </tr>
+
+    <!-- 对话 3 -->
+    <tr>
+      <td class="text">Dialog 3: A big one would be nice.</td>
+      <td><audio controls><source src="ground_truth/0_1_d23.wav" type="audio/wav"></audio></td>
+      <td><audio controls><source src="dailytalk/1_0_d23.wav" type="audio/wav"></audio></td>
+      <td><audio controls><source src="proposed/2_1_d23.wav" type="audio/wav"></audio></td>
+    </tr>
+  </table>
+</body>
+</html>
