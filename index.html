@@ -2,7 +2,7 @@
 <html lang="zh">
 <head>
   <meta charset="UTF-8">
-  <title>语音合成 Demo</title>
+  <title>ROleCons-TTS Demo</title>
   <style>
     body { font-family: sans-serif; margin: 40px; }
     h1 { font-size: 28px; margin-bottom: 20px; }
@@ -14,18 +14,18 @@
   </style>
 </head>
 <body>
-  <h1>语音合成 Demo</h1>
-  <p>下表展示了 Ground-Truth、DailyTalk、Proposed Model 三种系统在不同对话下的生成效果。</p>
+  <h1>Speech Demo</h1>
+  <p>The following table shows the generation effects of the Ground-Truth, DailyTalk, and Proposed Model systems under different dialogue conditions.</p>
 
   <table>
     <tr>
-      <th>对话文本</th>
+      <th>Dialogue text</th>
       <th>Ground-Truth</th>
       <th>DailyTalk</th>
       <th>Proposed Model</th>
     </tr>
 
-    <!-- 对话 1 -->
+    <!-- Dialogue 1 -->
     <tr>
       <!-- <td class="text">Dialog 1: I am looking for a pan.</td> -->
       <td class="text">Speaker 1: I am looking for a pan.</td>
@@ -34,7 +34,7 @@
       <td><audio controls><source src="proposed/0_1_d23.wav" type="audio/wav"></audio></td>
     </tr>
 
-    <!-- 对话 2 -->
+    <!-- Dialogue 2 -->
     <tr>
       <!-- <td class="text">Speaker 2: No problem. What size would you like?</td> -->
       <td class="text">Speaker 0: No problem. What size would you like?</td>
@@ -43,7 +43,7 @@
       <td><audio controls><source src="proposed/1_0_d23.wav" type="audio/wav"></audio></td>
     </tr>
 
-    <!-- 对话 3 -->
+    <!-- Dialogue 3 -->
     <tr>
       <td class="text">Speaker 1: A big one would be nice.</td>
       <td><audio controls><source src="ground_truth/2_1_d23.wav" type="audio/wav"></audio></td>
@@ -51,7 +51,7 @@
       <td><audio controls><source src="proposed/2_1_d23.wav" type="audio/wav"></audio></td>
     </tr>
 
-    <!-- 对话 4 -->
+    <!-- Dialogue 4 -->
     <tr>
       <td class="text">Speaker 0: How about this one? It's our biggest — sixteen' in diameter.</td>
       <td><audio controls><source src="ground_truth/3_0_d23.wav" type="audio/wav"></audio></td>
@@ -59,7 +59,7 @@
       <td><audio controls><source src="proposed/3_0_d23.wav" type="audio/wav"></audio></td>
     </tr>
 
-    <!-- 对话 5 -->
+    <!-- Dialogue 5 -->
     <tr>
       <td class="text">Speaker 1: Oh, yes, I like that one, but it's too heavy.</td>
       <td><audio controls><source src="ground_truth/4_1_d23.wav" type="audio/wav"></audio></td>
@@ -67,7 +67,7 @@
       <td><audio controls><source src="proposed/4_1_d23.wav" type="audio/wav"></audio></td>
     </tr>
 
-    <!-- 对话 6 -->
+    <!-- Dialogue 6 -->
     <tr>
       <td class="text">Speaker 0: OK, try this one. It's made of aluminum.</td>
       <td><audio controls><source src="ground_truth/5_0_d23.wav" type="audio/wav"></audio></td>
@@ -75,7 +75,7 @@
       <td><audio controls><source src="proposed/5_0_d23.wav" type="audio/wav"></audio></td>
     </tr>
 
-    <!-- 对话 7 -->
+    <!-- Dialogue 7 -->
     <tr>
       <td class="text">Speaker 1: Oh, yes! This is much better. But it has an aluminum handle.</td>
       <td><audio controls><source src="ground_truth/6_1_d23.wav" type="audio/wav"></audio></td>
@@ -83,7 +83,7 @@
       <td><audio controls><source src="proposed/6_1_d23.wav" type="audio/wav"></audio></td>
     </tr>
 
-    <!-- 对话 8 -->
+    <!-- Dialogue 8 -->
     <tr>
       <td class="text">Speaker 0: Here you go. Same pan, but with a state-of-the-art, heat-resistant plastic handle.</td>
       <td><audio controls><source src="ground_truth/7_0_d23.wav" type="audio/wav"></audio></td>
@@ -91,7 +91,7 @@
       <td><audio controls><source src="proposed/7_0_d23.wav" type="audio/wav"></audio></td>
     </tr>
 
-    <!-- 对话 9 -->
+    <!-- Dialogue 9 -->
     <tr>
       <td class="text">Speaker 1: Yes. That's perfect. I'll take it.</td>
       <td><audio controls><source src="ground_truth/8_1_d23.wav" type="audio/wav"></audio></td>
@@ -99,7 +99,7 @@
       <td><audio controls><source src="proposed/8_1_d23.wav" type="audio/wav"></audio></td>
     </tr>
 
-    <!-- 对话 10 -->
+    <!-- Dialogue 10 -->
     <tr>
       <td class="text">Speaker 0: Great. Will that be cash or credit?</td>
       <td><audio controls><source src="ground_truth/9_0_d23.wav" type="audio/wav"></audio></td>
@@ -107,7 +107,7 @@
       <td><audio controls><source src="proposed/9_0_d23.wav" type="audio/wav"></audio></td>
     </tr>
 
-    <!-- 对话 11 -->
+    <!-- Dialogue 11 -->
     <tr>
       <td class="text">Speaker 1: Oh, wait a minute. What about a lid for the pan?</td>
       <td><audio controls><source src="ground_truth/10_1_d23.wav" type="audio/wav"></audio></td>
@@ -115,7 +115,7 @@
       <td><audio controls><source src="proposed/10_1_d23.wav" type="audio/wav"></audio></td>
     </tr>
 
-    <!-- 对话 12 -->
+    <!-- Dialogue 12 -->
     <tr>
       <td class="text">Speaker 0: I'm sorry. I forgot to show you the lid. It comes with the pan.</td>
       <td><audio controls><source src="ground_truth/11_0_d23.wav" type="audio/wav"></audio></td>
